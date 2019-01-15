@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   get 'welcome/homepage'
+  get 'welcome/contact'
+  get 'welcome/about'
+  get 'welcome/team'
+  get 'welcome/portfolio'
+  get 'welcome/services'
   root 'welcome#homepage'
 
 
